@@ -47,8 +47,8 @@ function inicializarDadosDemonstracao() {
     /* Consulta pré-agendada */
     if (!localStorage.getItem('sav_consultas_agendadas')) {
         const consultasIniciais = [
-            { id: "c1", animalNome: "Luna",  clinica: "Hospital Central SAV", data: "2026-06-15", hora: "10:30" },
-            { id: "c2", animalNome: "Thor",  clinica: "SAV Aveiro Sul",       data: "2026-06-22", hora: "14:30" }
+            { id: "c1", tutorEmail: "carlos.silva@gmail.com", animalNome: "Luna",  clinica: "Hospital Central SAV", data: "2026-06-15", hora: "10:30" },
+            { id: "c2", tutorEmail: "carlos.silva@gmail.com", animalNome: "Thor",  clinica: "SAV Aveiro Sul",       data: "2026-06-22", hora: "14:30" }
         ];
         localStorage.setItem('sav_consultas_agendadas', JSON.stringify(consultasIniciais));
     }
@@ -840,6 +840,7 @@ function confirmarMarcacaoConsulta() {
         const consultas = JSON.parse(localStorage.getItem('sav_consultas_agendadas') || "[]");
         consultas.push({
             id: "c_" + Date.now(),
+            tutorEmail: tutor.email.toLowerCase(),
             animalNome: animal.nome,
             clinica,
             data,
@@ -886,7 +887,9 @@ function mostrarEcraCargaMarcacao(nomeAnimal, clinica, data, hora, callback) {
 
 function renderizerAgendaConsultas() {
     const container = document.getElementById('lista-consultas-futuras');
-    const consultas = JSON.parse(localStorage.getItem('sav_consultas_agendadas') || "[]");
+    const tutor = JSON.parse(localStorage.getItem('sav_sessao_ativa'));
+    const todasConsultas = JSON.parse(localStorage.getItem('sav_consultas_agendadas') || "[]");
+    const consultas = todasConsultas.filter(c => c.tutorEmail === tutor.email.toLowerCase());
     container.innerHTML = "";
 
     if (consultas.length === 0) {
