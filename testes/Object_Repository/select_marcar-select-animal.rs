@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_marcar-select-animal</name>
+   <tag></tag>
+   <elementGuidId>97554314-1dac-4683-92c2-10fcc861324d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'marcar-select-animal']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#marcar-select-animal</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#marcar-select-animal</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>b4c7da77-688b-4234-96c2-73bbcc432a44</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>marcar-select-animal</value>
+      <webElementGuid>07df75ad-c8e7-4f2f-9467-1c029429de02</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>LunaThorNico</value>
+      <webElementGuid>4f97417b-e340-45d8-a749-36e9e66903d7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-b317e9e06987a1ac3f25d26253e71c22</value>
+      <webElementGuid>f9699aa7-c092-4024-acc1-db381faa792c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id = 'marcar-select-animal']</value>
+      <webElementGuid>e069c7c3-a21c-46d5-8640-2d60fe3e8e3d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id = 'marcar-select-animal']</value>
+      <webElementGuid>3d547797-17e9-4690-88f8-6cd5bffbce4f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'marcar-select-animal' and (text() = 'LunaThorNico' or . = 'LunaThorNico')]</value>
+      <webElementGuid>e332c4ea-ed7d-4ba4-b0d1-786a0b1c76f8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

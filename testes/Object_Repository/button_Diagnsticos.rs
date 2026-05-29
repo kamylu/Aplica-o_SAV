@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Diagnsticos</name>
+   <tag></tag>
+   <elementGuidId>f2e86d1f-289e-46c5-9595-f99dd4371b80</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@onclick = 'mudarFiltroClinico('Diagnóstico', this)']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>[onclick=&quot;mudarFiltroClinico\(\'Diagnóstico\'\,\ this\)&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Diagnósticos&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>d3e74637-b389-44ef-96b5-02722c8999a1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn-secondary filter-tab</value>
+      <webElementGuid>3352ce2a-310a-425f-9afa-ff58a7ef2afb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>mudarFiltroClinico('Diagnóstico', this)</value>
+      <webElementGuid>70065d2f-9c2c-4145-92cc-05080d1b4b34</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Diagnósticos</value>
+      <webElementGuid>fd374b57-59dd-42df-bd18-fbc950db3c3f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-0ab7fbb2d603341b0ad15a918ce23d51</value>
+      <webElementGuid>159a3063-d5df-4be4-b169-0a94ea495bd2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@onclick = 'mudarFiltroClinico('Diagnóstico', this)']</value>
+      <webElementGuid>a83177bb-9e87-4b9f-b99c-bcef377a6922</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@onclick = 'mudarFiltroClinico('Diagnóstico', this)']</value>
+      <webElementGuid>b4740fcf-3df8-417a-b56b-9971dfe3bdfe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Diagnósticos' or . = 'Diagnósticos')]</value>
+      <webElementGuid>7c3967e0-4899-419b-a352-e4f7f271ab06</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

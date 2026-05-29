@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Ex_ 10.5</name>
+   <tag></tag>
+   <elementGuidId>1084eacb-b078-4006-a90a-06be395159b5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'animal-peso-input']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#animal-peso-input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:attr=[placeholder=&quot;Ex: 10.5&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>94cf9dea-a38f-447a-8098-0df08a8a8aae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>number</value>
+      <webElementGuid>ee257326-276f-4092-88e3-7aa1942fb269</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>step</name>
+      <type>Main</type>
+      <value>0.1</value>
+      <webElementGuid>93226d1c-d906-4121-a846-c7f36ef4e2ea</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>animal-peso-input</value>
+      <webElementGuid>9a7aad30-d73f-46eb-bdf1-ba3026ea1c14</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Ex: 10.5</value>
+      <webElementGuid>70c1136a-2393-44b8-8be7-25e113d6842a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-3f271eaef3668354feb8c2eef69194a1</value>
+      <webElementGuid>f97d5358-c528-4ed4-8dcc-4f0d5d77e025</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id = 'animal-peso-input']</value>
+      <webElementGuid>19b0e010-64f6-486f-99c9-0ded1289d7af</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id = 'animal-peso-input']</value>
+      <webElementGuid>3fecc674-8ddd-4965-ba2d-6a9d58ec896b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'number' and @id = 'animal-peso-input' and @placeholder = 'Ex: 10.5']</value>
+      <webElementGuid>75e4a440-e11f-486b-b3ed-1b4cd3d7db02</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

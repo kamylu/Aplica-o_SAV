@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_nav-marcar</name>
+   <tag></tag>
+   <elementGuidId>7eda7d72-6e4d-4a6f-80ab-b5c19f50ef33</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'nav-marcar']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#nav-marcar</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot; Marcar&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>863b1e19-0fa4-418d-9c12-3f6eef2ea757</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>nav-btn</value>
+      <webElementGuid>4a9e9bc5-7953-4c1a-9071-e3f1cbf1267b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>nav-marcar</value>
+      <webElementGuid>d780b5f4-801c-4360-938f-98eb2d303a80</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>mudarSubTela('marcar')</value>
+      <webElementGuid>2e993590-a70b-4365-811c-82a4ed88fc4d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                 Marcar
+            </value>
+      <webElementGuid>70b03ae6-19fe-4b7e-976c-9f2e5c18994d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-68ef1b3b67a7c271996205882514bd4c</value>
+      <webElementGuid>d36edfc9-15ca-4372-8b4e-44fc4717f4da</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id = 'nav-marcar']</value>
+      <webElementGuid>b3c78821-c31b-4a45-9119-d9857acfe3fc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id = 'nav-marcar']</value>
+      <webElementGuid>413b22d8-ddd0-41c3-88ee-fca9e7b61c00</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@id = 'nav-marcar' and (text() = '
+                 Marcar
+            ' or . = '
+                 Marcar
+            ')]</value>
+      <webElementGuid>d1a3f6ce-b890-4d6f-8092-bcf12ac4f608</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

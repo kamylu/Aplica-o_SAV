@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_animal-raca-input</name>
+   <tag></tag>
+   <elementGuidId>7c7de36e-0b7c-4ac3-b7a1-df7f4dbee6d7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'animal-raca-input']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#animal-raca-input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#animal-raca-input</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>a3b2a2f9-1bf3-4a2d-96eb-70691c3139a5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>animal-raca-input</value>
+      <webElementGuid>14301ae2-c6be-41f3-9cbe-f4bbf7650dd8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Albino StandardSableSilverChampagneChocolate</value>
+      <webElementGuid>bfdec83a-e2f0-4ea4-bb41-0c9ffd51eb5c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-967bb45cacd236ec7425a7f16b6c830b</value>
+      <webElementGuid>bd8de7e8-dfa4-4420-b5c8-0452d9a98cca</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id = 'animal-raca-input']</value>
+      <webElementGuid>bbb12190-0c53-4a8a-8806-f72e5ac14a3d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id = 'animal-raca-input']</value>
+      <webElementGuid>9fdeecec-814f-4674-8ae6-a26dac1a2076</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'animal-raca-input' and (text() = 'Albino StandardSableSilverChampagneChocolate' or . = 'Albino StandardSableSilverChampagneChocolate')]</value>
+      <webElementGuid>033a320f-c783-40a8-9103-5e718eb00234</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_tutorexemplo.com</name>
+   <tag></tag>
+   <elementGuidId>ac9d9282-8c93-49fd-ac06-cb236b0960a5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'reg-email']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'email' and @id = 'reg-email' and @placeholder = 'tutor@exemplo.com']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#reg-email</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:attr=[placeholder=&quot;tutor@exemplo.com&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>597fc8dd-ef5a-4c31-bae4-3b146214c241</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>email</value>
+      <webElementGuid>ecc302be-dc80-4615-94d9-7b60209b5fdd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>reg-email</value>
+      <webElementGuid>3b0f1b6f-39df-4050-8b77-948e6d0f9af8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>tutor@exemplo.com</value>
+      <webElementGuid>5c6016ef-0757-4def-83b2-469f12dcdb36</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-a406d6b9db787141d5135e0d9523a671</value>
+      <webElementGuid>f70da470-395e-47ce-b96c-e9edc0e8b44b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id = 'reg-email']</value>
+      <webElementGuid>3f3066fb-3e96-4c90-8166-4b79b9a53562</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id = 'reg-email']</value>
+      <webElementGuid>f8c3cb8a-dbcc-4032-b457-1480d7f40b2b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'email' and @id = 'reg-email' and @placeholder = 'tutor@exemplo.com']</value>
+      <webElementGuid>b59a87a8-3efc-48a0-9d5e-610432b4b19a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

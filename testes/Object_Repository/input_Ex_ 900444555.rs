@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Ex_ 900444555</name>
+   <tag></tag>
+   <elementGuidId>4f3d39ee-a9c8-40b1-bbe6-5a5241a2d7be</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'animal-chip-input']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#animal-chip-input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:attr=[placeholder=&quot;Ex: 900444555&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>98e61c28-539c-4423-b830-eb0bcf771242</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>e11cb8eb-e6a0-4c01-9ac1-436f1af4c658</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>animal-chip-input</value>
+      <webElementGuid>5d4b54f6-afcf-4fd6-bf8c-c13b264e580d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Ex: 900444555</value>
+      <webElementGuid>233e61d9-d5ad-40dc-8409-db98d84ab798</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>maxlength</name>
+      <type>Main</type>
+      <value>9</value>
+      <webElementGuid>e48562ee-81e2-4705-9cc1-785708761253</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-399060117f8f7b8e2af62e6b0d9d861b</value>
+      <webElementGuid>49840f6c-6a64-4cd0-9723-52b5031551dc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id = 'animal-chip-input']</value>
+      <webElementGuid>0f049e97-2178-4c1f-8a97-ee2102da7e3f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id = 'animal-chip-input']</value>
+      <webElementGuid>53dc6c60-f58f-446b-9804-83c0f6cddd19</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'text' and @id = 'animal-chip-input' and @placeholder = 'Ex: 900444555']</value>
+      <webElementGuid>3555e46f-6ba9-418c-82a3-344f4f35c91d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

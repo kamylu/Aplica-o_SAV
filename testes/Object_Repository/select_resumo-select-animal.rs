@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_resumo-select-animal</name>
+   <tag></tag>
+   <elementGuidId>85cfe6bd-db6c-45b9-9ee7-668a0eef079c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'resumo-select-animal']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#resumo-select-animal</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#resumo-select-animal</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>a83329aa-e810-422e-867d-272e3a7224f6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>resumo-select-animal</value>
+      <webElementGuid>9d1b4bc8-b7e9-472f-90f6-9eee5c550b49</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onchange</name>
+      <type>Main</type>
+      <value>filtrarHistoricoClinico()</value>
+      <webElementGuid>56ddfe73-d30e-407d-84fb-471cb1ca1c48</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Luna (Gato)Thor (Cão)Nico (Furão)</value>
+      <webElementGuid>b54c7d37-59c2-45ca-a0ca-33f9358654cb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-ade7de3539dfc49d62c66273c7371268</value>
+      <webElementGuid>a98304e2-c781-4af1-8002-aab6d3c8773b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id = 'resumo-select-animal']</value>
+      <webElementGuid>81aa4244-da39-4cbb-b6e5-4f27c0984fa4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id = 'resumo-select-animal']</value>
+      <webElementGuid>0dc85c38-1e3c-4d5b-ad7b-40392d2954ea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'resumo-select-animal' and (text() = 'Luna (Gato)Thor (Cão)Nico (Furão)' or . = 'Luna (Gato)Thor (Cão)Nico (Furão)')]</value>
+      <webElementGuid>19a2c28b-f2f7-4554-a031-a4d5e36f66d6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

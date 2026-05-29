@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Vacinas</name>
+   <tag></tag>
+   <elementGuidId>089e1c0f-eb25-47bf-8314-8139aa030458</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@onclick = 'mudarFiltroClinico('Vacina', this)']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>[onclick=&quot;mudarFiltroClinico\(\'Vacina\'\,\ this\)&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Vacinas&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>4623dc93-d80a-47cf-a553-f68f8e6107ac</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn-secondary filter-tab</value>
+      <webElementGuid>32240b40-af7f-4f80-b28f-e351eaaab71b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>mudarFiltroClinico('Vacina', this)</value>
+      <webElementGuid>74bc7506-178a-4155-acf9-dcb094b3257b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Vacinas</value>
+      <webElementGuid>452d2414-86fd-4c07-bd6b-c5a48783960a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-b51bd83fc594f868ca7de691f69aa9aa</value>
+      <webElementGuid>09f44b60-53c6-48ff-857a-569a12a8da23</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@onclick = 'mudarFiltroClinico('Vacina', this)']</value>
+      <webElementGuid>87077850-0c7f-4db6-b35e-8f603c73b408</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@onclick = 'mudarFiltroClinico('Vacina', this)']</value>
+      <webElementGuid>22d373ed-3ba5-46e7-b3fb-eab1392c9d2c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Vacinas' or . = 'Vacinas')]</value>
+      <webElementGuid>d3a65c65-3a6c-4d80-acad-ec46250a57cf</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Cirurgias</name>
+   <tag></tag>
+   <elementGuidId>1e2a24aa-7f04-440c-b2d5-521df5f1ca2a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@onclick = 'mudarFiltroClinico('Cirurgia', this)']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>[onclick=&quot;mudarFiltroClinico\(\'Cirurgia\'\,\ this\)&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Cirurgias&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>47f0ebf9-7dcc-4465-a5dc-63fac980b329</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn-secondary filter-tab</value>
+      <webElementGuid>a2bdd446-52d5-425c-b410-b2b65cc39a48</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>mudarFiltroClinico('Cirurgia', this)</value>
+      <webElementGuid>c300ed06-218b-48cd-9691-7fea349d48bc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Cirurgias</value>
+      <webElementGuid>032ec542-525a-44c5-8950-f0859dba1fdd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-ea7a3948c6be3ef5f695d1c9a806fb14</value>
+      <webElementGuid>430280ff-09d2-4584-b381-9b8357e135d8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@onclick = 'mudarFiltroClinico('Cirurgia', this)']</value>
+      <webElementGuid>1d5384db-c2f8-40e3-9c95-58f7a166e23a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@onclick = 'mudarFiltroClinico('Cirurgia', this)']</value>
+      <webElementGuid>a1218c68-3d95-4998-b945-a54f16f5e131</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Cirurgias' or . = 'Cirurgias')]</value>
+      <webElementGuid>45064995-92e6-4014-9f92-cd1c74d43d3e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
