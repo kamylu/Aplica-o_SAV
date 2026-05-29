@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>O tutor faz login</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>073f22a1-b5c6-4a5f-ad41-521f32fa8e5b</testCaseGuid>
+</TestCaseEntity>

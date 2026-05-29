@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>O tutor não recebe o código de utilização</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1646122e-8bab-4d62-b051-aa8600595972</testCaseGuid>
+</TestCaseEntity>

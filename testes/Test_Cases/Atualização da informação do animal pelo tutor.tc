@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Atualização da informação do animal pelo tutor</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ce8cb811-bc2c-4cf6-8342-1dd93b426743</testCaseGuid>
+</TestCaseEntity>

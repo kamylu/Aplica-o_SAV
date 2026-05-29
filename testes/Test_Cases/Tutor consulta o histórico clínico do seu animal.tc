@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Tutor consulta o histórico clínico do seu animal</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>30cc36d8-f254-4d0c-99a8-709bb4213648</testCaseGuid>
+</TestCaseEntity>

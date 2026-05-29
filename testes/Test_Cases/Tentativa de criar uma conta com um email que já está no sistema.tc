@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Tentativa de criar uma conta com um email que já está no sistema</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>630e287f-3f25-4fa9-935f-e26451d39cfd</testCaseGuid>
+</TestCaseEntity>
