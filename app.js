@@ -334,28 +334,42 @@ function processarRegistoAnimalSIAC() {
     document.getElementById('siac-form-content').classList.add('hidden');
     document.getElementById('siac-loading-view').classList.remove('hidden');
 
-    setTimeout(() => {
-        const tutor = JSON.parse(localStorage.getItem('sav_sessao_ativa'));
-        const animaisPorTutor = JSON.parse(localStorage.getItem('sav_animais_por_tutor') || "{}");
-        const meusAnimais = animaisPorTutor[tutor.email.toLowerCase()] || [];
+setTimeout(() => {
+    const tutor = JSON.parse(localStorage.getItem('sav_sessao_ativa'));
+    const animaisPorTutor = JSON.parse(localStorage.getItem('sav_animais_por_tutor') || "{}");
 
-        const novo = {
-            id: chip, nome, especie, raca, idade: parseInt(idade), peso: parseFloat(peso),
-            sangue: "A analisar via Clínica", alergias: "Nenhuma registada", dieta: "Normal",
-            foto: "https://images.unsplash.com/photo-1543466835-00a7907e9de1?w=150",
-            historico: [{ tipo: "Diagnóstico", ato: "Registo Automático via SIAC Nacional", data: "Hoje", vet: "Sistema SAV", clinica: "Sincronizado" }]
-        };
+    // ── VERIFICAÇÃO: chip já registado noutro tutor? ──
+    for (const emailTutor in animaisPorTutor) {
+        const animaisDoTutor = animaisPorTutor[emailTutor];
+        const chipJaExiste = animaisDoTutor.some(a => a.id === chip);
+        if (chipJaExiste) {
+            document.getElementById('siac-loading-view').classList.add('hidden');
+            document.getElementById('siac-form-content').classList.remove('hidden');
+            showToast("Microchip já registado na SIAC em nome de outro tutor. Contacte a clínica.", "error");
+            return;
+        }
+    }
+    // ──────────────────────────────────────────────────
 
-        meusAnimais.push(novo);
-        animaisPorTutor[tutor.email.toLowerCase()] = meusAnimais;
-        localStorage.setItem('sav_animais_por_tutor', JSON.stringify(animaisPorTutor));
+    const meusAnimais = animaisPorTutor[tutor.email.toLowerCase()] || [];
 
-        document.getElementById('siac-loading-view').classList.add('hidden');
-        document.getElementById('siac-form-content').classList.remove('hidden');
-        showToast("Animal validado com sucesso na SIAC!", "success");
-        mudarSubTela('home');
-        renderizerListaAnimais();
-    }, 2000);
+    const novo = {
+        id: chip, nome, especie, raca, idade: parseInt(idade), peso: parseFloat(peso),
+        sangue: "A analisar via Clínica", alergias: "Nenhuma registada", dieta: "Normal",
+        foto: "https://images.unsplash.com/photo-1543466835-00a7907e9de1?w=150",
+        historico: [{ tipo: "Diagnóstico", ato: "Registo Automático via SIAC Nacional", data: "Hoje", vet: "Sistema SAV", clinica: "Sincronizado" }]
+    };
+
+    meusAnimais.push(novo);
+    animaisPorTutor[tutor.email.toLowerCase()] = meusAnimais;
+    localStorage.setItem('sav_animais_por_tutor', JSON.stringify(animaisPorTutor));
+
+    document.getElementById('siac-loading-view').classList.add('hidden');
+    document.getElementById('siac-form-content').classList.remove('hidden');
+    showToast("Animal validado com sucesso na SIAC!", "success");
+    mudarSubTela('home');
+    renderizerListaAnimais();
+}, 2000);
 }
 
 /* ============================================
